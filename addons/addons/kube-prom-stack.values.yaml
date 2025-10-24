@@ -1,0 +1,15 @@
+grafana:
+  adminPassword: admin
+  service:
+    type: NodePort
+    nodePort: 3000
+
+prometheus:
+  service:
+    type: NodePort
+    nodePort: 9090
+
+alertmanager:
+  service:
+    type: NodePort
+    nodePort: 9093
