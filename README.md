@@ -11,4 +11,4 @@ One-command installer for:
 
 **On the first node (master):**
 ```bash
-curl -fsSL https://raw.githubusercontent.com/<YOU>/cluster-autoinstall/main/autoinstall.sh | sudo bash -- --role master
+curl -fsSL https://raw.githubusercontent.com/niclaf25/cluster-autoinstall/main/autoinstall.sh | sudo bash -- --role master
